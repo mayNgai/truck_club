@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteSmoke"
+    tools:context="dtc.dhub.tuay.service_transport.User_Book.User_Book_SetBookTime">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linearSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:entries="@array/select_date_array"
+        android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/linearStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="@drawable/buttonshape_find_location_search_white"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Start" />
+
+                <EditText
+                    android:id="@+id/edtStart"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:ems="10"
+                    android:hint="Date Start"
+                    android:gravity="center"
+                    android:textColorHint="@color/LightGray"
+                    android:textColor="@color/SteelBlue"
+                    android:background="@null"
+                    android:inputType="textPersonName"
+                    android:visibility="visible"
+                    android:enabled="false"/>
+
+            <ImageButton
+                android:id="@+id/imgStart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_books"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:textColor="#2BC0D3"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:visibility="visible"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="@drawable/buttonshape_find_location_search_white"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="End" />
+
+            <EditText
+                android:id="@+id/edtEnd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:ems="10"
+                android:hint="Date End"
+                android:gravity="center"
+                android:textColorHint="@color/LightGray"
+                android:textColor="@color/SteelBlue"
+                android:background="@null"
+                android:inputType="textPersonName"
+                android:visibility="visible"
+                android:enabled="false"/>
+
+            <ImageButton
+                android:id="@+id/imgEnd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_books"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:textColor="#2BC0D3"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:visibility="visible"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutUsername2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/buttonshape_orange"
+        android:layout_below="@+id/linearSelectDate"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:weightSum="2">
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdoNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:gravity="center"
+                android:textSize="@dimen/font_18"
+                android:padding="5dp"
+                android:background="@drawable/buttonshape_find_location_search_white"
+                android:text="@string/txtNow" />
+
+            <RadioButton
+                android:id="@+id/rdoBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/font_18"
+                android:padding="5dp"
+                android:text="@string/txtBook" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_below="@+id/linearLayoutUsername2"-->
+        <!--android:layout_above="@+id/linearLayoutBotton">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/linearLayoutUsername2"
+            android:layout_above="@+id/linearLayoutBotton">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+    <!--</ScrollView>-->
+
+</RelativeLayout>

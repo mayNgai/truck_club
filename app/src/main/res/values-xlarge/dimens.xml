@@ -1,0 +1,101 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <dimen name="statusbar_size">52dp</dimen>
+    <dimen name="list_row_padding">32.0dip</dimen>
+
+    <dimen name="font_10">14.0sp</dimen>
+    <dimen name="font_11">15.0sp</dimen>
+    <dimen name="font_13">17.0sp</dimen>
+    <dimen name="font_14">18.0sp</dimen>
+    <dimen name="font_15">19.0sp</dimen>
+    <dimen name="font_16">20.0sp</dimen>
+    <dimen name="font_17">21.0sp</dimen>
+    <dimen name="font_18">22.0sp</dimen>
+    <dimen name="font_19">23.0sp</dimen>
+    <dimen name="font_20">24.0sp</dimen>
+    <dimen name="font_21">25.0sp</dimen>
+    <dimen name="font_22">26.0sp</dimen>
+    <dimen name="font_23">27.0sp</dimen>
+    <dimen name="font_24">28.0sp</dimen>
+    <dimen name="font_25">30.0sp</dimen>
+    <dimen name="font_28">32.0sp</dimen>
+    <dimen name="font_6">4.0sp</dimen>
+    <dimen name="font_7">5.0sp</dimen>
+    <dimen name="font_8">6.0sp</dimen>
+    <dimen name="font_9">7.0sp</dimen>
+    <dimen name="font_12">10.0sp</dimen>
+    <dimen name="font_30">36.0sp</dimen>
+    <dimen name="keyboard_height">300dip</dimen>
+    <dimen name="item_settings_bottommargin">14dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+    <dimen name="margin_top">80dp</dimen>
+
+    <dimen name="margin_top_head">55dp</dimen>
+    <dimen name="margin_top_profile">150dp</dimen>
+    <dimen name="margin_center_profile">130dp</dimen>
+    <dimen name="margin_image_size_profile">140dp</dimen>
+    <dimen name="margin_image_size_edit_profile">30dp</dimen>
+
+
+    <dimen name="margin_top_register">60dp</dimen>
+    <dimen name="margin_image_size_profile_register">100dp</dimen>
+
+    <dimen name="image_size_logo_width">320dp</dimen>
+    <dimen name="image_size_logo_height">190dp</dimen>
+    <dimen name="margin_left">45dp</dimen>
+
+    <dimen name="margin_top_driver_book">5dp</dimen>
+    <dimen name="padding_top_driver_book">3dp</dimen>
+    <dimen name="button_confirm">80dp</dimen>
+    <dimen name="margin_left_register">15dp</dimen>
+
+
+    <dimen name="margin_left_book">20dp</dimen>
+    <dimen name="padding__book">3dp</dimen>
+
+    <dimen name="margin_top_head_profile">70dp</dimen>
+    <dimen name="image_size_profile">150dp</dimen>
+
+    <dimen name="lay_out_price">250dp</dimen>
+    <dimen name="padding_list_view">10dp</dimen>
+
+    <dimen name="img_report">50dp</dimen>
+
+    <dimen name="margin_head_accept_user">70dp</dimen>
+
+    <dimen name="margin_head_navigation">220dp</dimen>
+
+    <dimen name="padding_login">15dp</dimen>
+    <dimen name="margin_top_login">20dp</dimen>
+    <dimen name="hight_90">150dp</dimen>
+    <dimen name="hight_100">100dp</dimen>
+    <dimen name="hight_300">500dp</dimen>
+    <dimen name="hight_30">50dp</dimen>
+    <dimen name="hight_40">80dp</dimen>
+    <dimen name="item_offset">2dp</dimen>
+    <dimen name="margin_10">30dp</dimen>
+    <dimen name="margin_60">80dp</dimen>
+    <dimen name="margin_65">75dp</dimen>
+    <dimen name="margin_50">70dp</dimen>
+    <dimen name="margin_55">95dp</dimen>
+    <dimen name="margin_150">200dp</dimen>
+    <dimen name="padding_20">40dp</dimen>
+    <dimen name="padding_10">20dp</dimen>
+    <dimen name="padding_15">25dp</dimen>
+    <dimen name="padding_2">6dp</dimen>
+    <dimen name="padding_30">20dp</dimen>
+    <dimen name="margin_120">350dp</dimen>
+    <dimen name="padding_120">140dp</dimen>
+
+</resources>
+

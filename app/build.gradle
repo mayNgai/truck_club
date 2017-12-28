@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'dhub'
+            keyPassword 'dtcenterprise'
+            storeFile file('C:/Users/May/Desktop/key/DHUB_KEY.jks')
+            storePassword 'dtcenterprise'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    //useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.dtc.sevice.truckclub"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 4
+        versionName "1.0.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.+'
+    compile 'com.android.support:design:25.+'
+    compile 'com.android.support:support-vector-drawable:25.+'
+    //compile 'com.google.android.gms:play-services:9.2.1'
+    testCompile 'junit:junit:4.12'
+    //compile files('libs/libsandroidasync-1.3.7.jar')
+    //compile files('libs/ion-1.3.7.jar')
+    compile 'com.koushikdutta.ion:ion:2.+'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.jaredrummler:android-device-names:1.1.2'
+    compile 'com.j256.ormlite:ormlite-core:4.48'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile 'com.viewpagerindicator:library:2.4.1@aar'
+    //compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'io.reactivex:rxjava:1.0.4'
+    compile 'io.reactivex:rxandroid:0.24.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.firebase:firebase-messaging:11.2.0'
+    compile 'com.google.android.gms:play-services:11.2.0'
+}
+apply plugin: 'com.google.gms.google-services'

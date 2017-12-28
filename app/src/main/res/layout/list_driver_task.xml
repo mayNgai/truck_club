@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="@dimen/padding_2">
+
+    <LinearLayout
+        android:id="@+id/linear_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape_white_border_orange"
+        android:padding="@dimen/margin_10"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_event_note_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_18"
+                android:text="วันที่นัดหมาย :"/>
+            <TextView
+                android:id="@+id/txt_date_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="03-10-2017"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/Gray"
+            android:gravity="center_vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:weightSum="5">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="รับ"
+                android:textSize="@dimen/font_18"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_start_position"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="4.5"
+                android:text="39/12 เฉลิมพระเกียรติ ร.9,Prawet,Bangkok,Thailand"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:weightSum="5">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="ส่ง"
+                android:textSize="@dimen/font_18"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_des_position"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="4.5"
+                android:text="39/12 เฉลิมพระเกียรติ ร.9,Prawet,Bangkok,Thailand"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="3"
+            android:padding="10dp"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ส่ง"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_22"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:id="@+id/txt_end_position"
+                android:layout_width="0.dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2.5"
+                android:text="35/4 ซอย สุขุมวิท 70/2 Khwaeng Bang Na, Khet Bang Na, Krung Thep Maha Nakhon 10260, Thailand"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

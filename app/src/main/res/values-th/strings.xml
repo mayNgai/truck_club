@@ -1,0 +1,436 @@
+<resources>
+    <!--<string name="facebook_app_id">1594597147240949</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1594597147240949</string>-->
+    <string name="facebook_app_id">174618203087600</string>
+    <string name="fb_login_protocol_scheme">fb174618203087600</string>
+
+    <string name="app_name">Truck Club</string>
+    <string name="logo_name">Truck Club</string>
+    <string name="title_all_task">All Task</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_me">Me</string>
+    <integer name="zoom">11</integer>
+    <string name="title_activity_test_map_fragment">Map</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="stepLogin">เข้าสู่ระบบ</string>
+    <string name="stepPutDestination">เลือกจุดหมาย</string>
+    <string name="stepDetail">รายละเอียด</string>
+    <string name="stepPickDriver">เลือกคนขับ</string>
+    <string name="stepTraveling">กำลังเดินทาง</string>
+    <string name="stepFinish">ให้คะแนน</string>
+    <string name="blank"> </string>
+    <string name="choosePic">เลือกรูป</string>
+    <string name="login_complete">เข้าสู่ระบบ สำเร็จ</string>
+
+    <string name="about">เกี่ยวกับ</string>
+    <string name="wwwdtc">www.dtc.co.th</string>
+    <string name="urlwwwdtc">http://www.dtc.co.th</string>
+    <string name="playStore">https://play.google.com/store/apps/details?id=com.dtc.sevice.truckclub</string>
+    <string name="version">เวอร์ชัน</string>
+    <string name="checkUpdate">ตรวจสอบเวอร์ชัน</string>
+
+    <string name="wantToChoose">ต้องการเลือกคุณ</string>
+    <string name="forSent"> ให้ไปส่งใช่ไหม?</string>
+
+    <string name="cantTravel">เดินทางไม่ได้</string>
+    <string name="cantTravelThisTime">ยังไม่ถึงเวลาเดินทาง</string>
+    <string name="cantTravelTimeOut">เลยเวลาเดินทางแล้ว</string>
+    <string name="tellUserUWillPickUp">เดินทาง</string>
+    <string name="tellUserUWillPickUp2">บอกผู้โดยสารว่าคุณจะเดินทางไปรับตอนนี้</string>
+    <string name="yourDeviceTimeWrong">เวลาในอุปกรณ์ของคุณไม่ตรงกลับเวลาจริง</string>
+
+    <string name="detail">รายละเอียด</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="goStart">ออกเดินทาง : </string>
+    <string name="destination">ปลายทาง</string>
+    <string name="back_home">เดินทางกลับ : </string>
+    <string name="User">ผู้ขอใช้บริการ</string>
+    <string name="txtUserHead">ผู้ขอใช้บริการ : </string>
+    <string name="price_periot_user">ราคาที่ต้องการ</string>
+    <string name="point_pick_up_full_address">จุดไปรับ</string>
+    <string name="point_sent_full_address">จุดไปส่ง</string>
+    <string name="year_old">อายุ</string>
+    <string name="year">ปี</string>
+    <string name="rating">Rating</string>
+    <string name="MrOrMrs">คุณ</string>
+    <string name="CarDetail">รายละเอียดรถ</string>
+    <string name="SpecialDetail">รายละเอียดเพิ่มเติม</string>
+    <string name="VanID">ทะเบียนรถ : </string>
+    <string name="Price">ราคา</string>
+    <string name="AVRPriceThisGroup">ราคาเฉลี่ยต่อวันของรถกลุ่มนี้</string>
+    <string name="AVRPriceThisVan">ราคาเฉลี่ยต่อวันของรถคันนี้</string>
+    <string name="pickDriver">แจ้งขอใช้บริการ</string>
+    <string name="priceYourOffer">ราคาที่เสนอไป</string>
+    <string name="back">กลับ</string>
+    <string name="from">จาก</string>
+    <string name="go">ไป</string>
+    <string name="stillHaveNoDriver">ยังไม่ได้คนขับ</string>
+    <string name="typTravel">ประเภทการเดินทาง</string>
+    <string name="book_accept">ดูตารางเดินทาง</string>
+    <string name="txt_book">จอง</string>
+    <string name="bathPerDay">บาท/วัน</string>
+
+    <string name="txtDriver">Driver</string>
+    <string name="txtUser">User</string>
+    <string name="txtWarning">Warning</string>
+    <string name="txt_internet_is_not">อินเทอร์เน็ตมีปัญหา</string>
+    <string name="txtWait">กรุณสรอสักครู่</string>
+    <string name="txt_loading">loading...</string>
+
+    <string name="confirmYouOver">ยืนยันว่าคุณขึ้นรถแล้ว</string>
+
+
+
+    <string name="next_btn">ถัดไป</string>
+
+    <string name="hintLogin">ชื่อผู้ใช้</string>
+    <string name="hintPassword">รหัสผ่าน</string>
+
+    <string name="Driver_caption">ข้อมูลผู้ขับขี่</string>
+    <string name="Driver_Name">ชื่อ</string>
+    <string name="Driver_Surname">นามสกุล</string>
+    <string name="Driver_Nickname">ชื่อเล่น</string>
+    <string name="Driver_BirthDate">วัน/เดือน/ปี เกิด</string>
+    <string name="Driver_Email">อีเมลล์</string>
+    <string name="Driver_Tel">เบอร์โทร</string>
+    <string name="Driver_Password">รหัสผ่าน</string>
+    <string name="Driver_ConfirmPassword">ยืนยันรหัสผ่าน</string>
+    <string name="Driver_Sex">เพศ</string>
+
+    <string name="Driver_Vehicle_Caption">ข้อมูลยานพาหนะ</string>
+    <string name="Driver_Vehicle_ฺBrand">ยี่ห้อรถ</string>
+    <string name="Driver_Vehicle_ฺModel">รุ่นรถ</string>
+    <string name="Driver_Vehicle_ฺID">ทะเบียน</string>
+    <string name="Driver_province">จังหวัด</string>
+    <string name="Driver_Vehicle_ฺtools">อุปกรณ์เสริม</string>
+    <string name="Driver_Vehicle_ฺfuel">เชื้อเพลิง</string>
+    <string name="Driver_Group">จำนวนที่นั่ง</string>
+    <string name="Driver_Karaoke">คาราโอเกะ</string>
+    <string name="Driver_Place_For_WheelChair">ที่สำหรับ Wheel Chair</string>
+    <string name="Driver_leather_sofa">เบาะหนัง</string>
+    <string name="Driver_Fire_Theque">ไฟเทค</string>
+    <string name="Driver_Other">อื่นๆ</string>
+    <string name="Driver_VanWage_Per_Day">ราคาเหมาต่อวัน</string>
+    <string name="Bath">บาท</string>
+    <string name="BathPerDay">บาท/วัน</string>
+    <string name="day">วัน</string>
+    <string name="nor">น.</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="history">ประวัติการเดินทาง</string>
+    <string name="name">ชื่อ</string>
+    <string name="changePassword">เปลี่ยนรหัสผ่าน</string>
+
+    <string name="Book_Go_Back">ไป-กลับ(เหมา)</string>
+    <string name="Book_One_Turn">เที่ยวเดียว</string>
+    <string name="User_Start">ต้นทาง</string>
+    <string name="User_use_now_location">ใช้ตำแหน่งปัจจุบัน</string>
+    <string name="User_Choose_Position">เลือกตำแหน่งจากแผนที่</string>
+    <string name="User_Destination">ปลายทาง</string>
+    <string name="User_Date_travel">วันเดินทาง</string>
+    <string name="User_how_much_date">จำนวนวันที่ต้องการ</string>
+    <string name="User_date_start">วันออกเดินทาง</string>
+    <string name="User_use_address_start">ใช้ตำแหน่งต้นทาง</string>
+    <string name="User_point_pick_up">จุดขึ้นรถ</string>
+    <string name="User_time_to_start">เวลาออกเดินทาง  : </string>
+    <string name="User_periot_of_price">ช่วงราคาที่ต้องการ</string>
+    <string name="User_type_of_fuel">ประเภทเชื้อเพลิง</string>
+    <string name="User_van_option">Option รถ</string>
+
+    <string name="Driver_Pic_profile">รูปโปรไฟล์</string>
+    <string name="Driver_Pic_full">รูปรถเต็มคัน</string>
+    <string name="Driver_Pic_inside">รูปด้านในรถ</string>
+
+    <string name="Driver_Pic_On_Top">รูปตัวอย่างรถ</string>
+    <string name="Driver_Save_All">บันทึก</string>
+    <string name="Driver_Pic_Pro">เลือกรูปโปรไฟล์</string>
+    <string name="Driver_pic_Full_Car">รูปรถต็มคัน</string>
+    <string name="Driver_pic_Inside_Car">รูปด้านในรถ</string>
+    <string name="vehicle">ยานพาหนะ</string>
+    <string name="textIndigo">#3DECFF</string>
+    <string name="textBlack">#000000</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="LocationFail">ยังไม่ได้เปิดใช้ GPS</string>
+    <string name="NetworkFail">ยังไม่ได้เปิดใช้ Network</string>
+    <string name="OpenGPS">เปิดใช้ GPS</string>
+    <string name="inputPrice">ใส่ราคา</string>
+    <string name="driverNotCome">ผู้ขับขี่ไม่มารับ</string>
+    <string name="driverTooLate">ผู้ขับขี่มารับช้ามาก</string>
+    <string name="driverDontSentU">ผู้ขับขี่ไม่ไปส่งตามที่ตกลง</string>
+    <string name="other">อื่นๆ</string>
+    <string name="edit">แก้ไข</string>
+    <string name="skip">ข้าม</string>
+    <string name="travel">เดินทาง</string>
+    <string name="have_book_today">คุณมีนัดเดินทางวันนี้</string>
+    <string name="check_your_traveling">โปรดเช็คแผนการเดินทางของคุณ</string>
+    <string name="have_book_tomorrow">คุณมีนัดเดินทางพรุ่งนี้</string>
+
+    <string name="userDontCome">ผู้โดยสารไม่มาตามที่ตกลง</string>
+    <string name="userDontPay">ผู้โดยสารไม่จ่ายเงินตามราคาที่ตกลง</string>
+
+    <string name="UserGiveRating">ให้คะแนนบริการ</string>
+    <string name="ratingSpeeding">รวดเร็ว</string>
+    <string name="ratingCleaning">สะอาด</string>
+    <string name="ratingGentle">สุภาพ</string>
+    <string name="ratingNotRate">ตรงเวลา</string>
+    <string name="Suggestion">ข้อเสนอแนะ</string>
+
+
+    <string name="NameHashMap">profileName</string>
+    <string name="AgeHashMap">profileAge</string>
+    <string name="TelHashMap">profileTel</string>
+
+    <string-array name="VanFuel">
+        <item>แก๊สโซฮอล์</item>
+        <item>เบนซิล 95</item>
+        <item>เบนซิล 91</item>
+        <item>ดีเซล</item>
+        <item>ดีเซลไฮพาวเวอร์</item>
+        <item>แก๊สเอ็นจีวี</item>
+        <item>แก๊สแอลพีจี</item>
+    </string-array>
+
+    <string-array name="VanGroup">
+        <item>VIP 14 ที่นั่ง</item>
+        <item>VIP 10 ที่นั่ง</item>
+        <item>VIP 8 ที่นั่ง</item>
+    </string-array>
+
+    <string-array name="driver_job">
+        <item>งานที่เข้ามาใหม่</item>
+        <item>งานที่เสนอราคาไปแล้ว</item>
+        <item>งานที่ลูกค้ายกเลิก</item>
+        <item>งานที่ลูกค้าตอบรับ</item>
+    </string-array>
+
+    <string-array name="driver_option">
+        <item>คาราโอเกะ</item>
+        <item>ที่สำหรับ Wheelchair</item>
+        <item>เบาะหนัง</item>
+        <item>ไฟเธค</item>
+    </string-array>
+
+    <string-array name="SexArray">
+        <item>ชาย</item>
+        <item>หญิง</item>
+    </string-array>
+
+    <string name="oneTurn">เที่ยวเดียว</string>
+    <string name="goBack">เหมา</string>
+    <string name="oneTurnFromTable">One_Turn</string>
+    <string name="goBackFromTable">Go_Back</string>
+
+    <string name="AverageRating">Rating เฉลี่ย</string>
+    <string name="AverageRatingDriver">Rating เฉลี่ยของผู้ขับขี่</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="Offering">Offering</string>
+
+    <string name="Driver_Online">พร้อมบริการ</string>
+    <string name="Driver_Offline">ยังไม่พร้อม</string>
+
+    <string name="nodata">ไม่พบข้อมูล</string>
+    <string name="ok">ตกลง</string>
+
+    <string name="txtOk">ตกลง</string>
+
+    <string name="putDateCount">ใส่จำนวนวันที่ต้องการก่อน</string>
+    <string name="notputDateCount">ใส่จำนวนวันทไม่ถูกต้อง</string>
+    <string name="yourDateRepletly">วันเดินทางของคุณตรงกับตารางเดินทางอื่นของคุณ</string>
+    <string name="chooseDate">เลือกวัน</string>
+
+    <string name="setting">ตั้งค่า</string>
+    <string name="waitDriverAccept">รอคนขับตอบกลับไม่เกิน</string>
+    <string name="Minute">นาที</string>
+    <string name="enterYourTimeUWait">กรุณาใส่เวลารอ(นาที)</string>
+    <string name="waitAccept">รอตอบกลับไม่เกิน</string>
+
+    <string name="timeOut">หมดเวลาค้นหา</string>
+    <string name="notHaveDriver">ไม่พบคนขับที่อยู่ใกล้ๆคุณ</string>
+
+    <string name="titleNetIsNotStable">อินเตอร์เน็ตของคุณมีปัญหา</string>
+    <string name="txtNetIsNotStable">กรุณาเช็คอินเตอร์เน็ตของคุณ</string>
+
+    <string name="titleGPSIsNotStable">GPSของคุณมีปัญหา</string>
+    <string name="txtGPSIsNotStable">กรุณาเช็คGPSของคุณ</string>
+
+    <string name="titleNetAndGPSIsNotStable">อินเตอร์เน็ตและGPSของคุณมีปัญหา</string>
+    <string name="txtNetAndGPSIsNotStable">กรุณาเช็คอินเตอร์เน็ตและGPSของคุณ</string>
+
+    <string name="titlePleaseChoosePic">ยังไม่ได้เลือกรูปจากครังภาพ</string>
+    <string name="txtPleaseChoosePic">โปรดเลือกรูปจากคลังภาพ</string>
+
+    <string name="titleDataisNotcomplete">ข้อมูลไม่ครบ</string>
+    <string name="txtDataisNotcomplete">โปรดใส่ข้อมูลให้ครบถ้วนด้วยค่ะ</string>
+
+    <string name="txtEnterName">กรุณากรอกชื่อให้ครบถ้วนด้วย</string>
+    <string name="txtEnterAge">กรุณากรอกอายุให้ครบถ้วนด้วย</string>
+    <string name="txtEnterTel">กรุณากรอกเบอร์โทรให้ครบด้วย</string>
+
+    <string name="titleWrongPassword">รหัสผ่านผิด</string>
+    <string name="txtWrongPassword">กรุณาตรวจสอบรหัสผ่านด้วยค่ะ</string>
+
+    <string name="titleRegisterFailed">ลงทะเบียนผิดพลาด</string>
+    <string name="txtRegisterFailed">ชื่อผู้ใช้งานนี้ถูกลงทะเบียนแล้ว</string>
+
+    <string name="titleRegisterSuccesses">ลงทะเบียนผสำเร็จ</string>
+    <string name="txtRegisterSuccesses"> </string>
+
+    <string name="titleLoginFail">ข้อมูลไม่ถูกต้อง</string>
+    <string name="txtLoginFail">กรุณาตรวจสอบข้อมูล</string>
+
+    <string name="titleFinishjobFail">ไม่สามารถจบงานได้</string>
+    <string name="txtFinishjobFail">ผู้โดยสารยังไม่ยืนยันว่าถึงที่หมายแล้ว</string>
+
+    <string name="txtDataFail">ไม่พบข้อมูล</string>
+
+    <string name="titleBookFailed">การจองผิดพลาด</string>
+    <string name="txtBookFailed">กรุณาลองใหม่อีกครั้ง</string>
+
+    <string name="titleyourDateNotBook">ไม่สามารถจองวันนี้ได้</string>
+    <string name="txtyourDateNotBook">เนื่องจากเป็นวันเดียวกับการเดินทาง</string>
+    <string name="txtCannotbookthepreviousday">ไม่สามารถจองวันก่อนหน้าได้</string>
+
+    <string name="txtNow">ใช้งานตอนนี้</string>
+    <string name="txtBook">จองล่วงหน้า</string>
+
+    <string name="now">ตอนนี้</string>
+    <string name="book">จอง</string>
+    <string name="reportUser">รายงานผู้โยสาร</string>
+    <string name="reportDriver">รายงานผู้ขับขี่</string>
+
+    <string name="cantReport">ยังรายงานไม่ได้</string>
+    <string name="txtPleaseChooseDateStart">กรูณาเลือกวันเริ่มต้น</string>
+    <string name="txtPleaseChooseDateEnd">กรูณาเลือกวันสิ้นสุด</string>
+    <string name="txtPleaseChooseTimeStart">กรูณาเลือกเวลาเริ่มต้น</string>
+    <string name="txtPleaseChooseTimeEnd">กรูณาเลือกเวลาสิ้นสุด</string>
+
+
+    <string name="titleLogOutApp">กรุณาออกจากระบบ</string>
+    <string name="txtLogOutApp">เนื่องจากมีการเข้าสู่ระบบอีกเครื่อง</string>
+
+    //////////validate register Driver ///////////
+    <string name="error_invalid_name">This name is invalid</string>
+    <string name="error_invalid_useer_name">This Username is invalid</string>
+    <string name="error_invalid_surname">This surname is invalid</string>
+    <string name="error_invalid_nick_name">This nick name is invalid</string>
+    <string name="error_invalid_first_name">This Frist Name is invalid</string>
+    <string name="error_invalid_last_name">This Last Name is invalid</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_tel">This phone number is invalid</string>
+    <string name="error_invalid_birth_date">please select birth day.</string>
+    <string name="error_invalid_image">please select Image.</string>
+    <string name="error_invalid_pass">This password is invalid</string>
+    <string name="title_not_complete">Your data is not complete</string>
+    <string name="error_invalid_age">This age is invalid</string>
+
+    <string name="error_invalid_car_brands">Please enter Car brand</string>
+    <string name="error_invalid_car_model">Please enter Car model</string>
+    <string name="error_invalid_license_plate">Please enter license plate</string>
+    <string name="error_invalid_license_province">Please enter license province</string>
+    <string name="error_invalid_car_wheels">Please input car wheels.</string>
+    <string name="error_invalid_car_tons">Please input car tons.</string>
+    <string name="error_invalid_prise_per_day">Please enter prise</string>
+    <string name="error_invalid_type_car">Please select type car</string>
+    <string name="error_invalid_total_tow">Please select total tow</string>
+    <string name="error_invalid_pic_profile">Please select image profile</string>
+    <string name="error_invalid_pic_car">Please select image cars more then 3.</string>
+
+    //////////validate register User ///////////
+    <string name="error_user_invalid_name">This name is invalid</string>
+    <string name="error_user_invalid_tel">This phone number is invalid</string>
+    <string name="error_user_invalid_age">This age is invalid</string>
+    <string name="title_user_not_complete">Your data is not complete</string>
+
+    <string name="txt_name">ชื่อ</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_first_name">ชื่อจริง</string>
+    <string name="txt_last_name">นามสกุลจริง</string>
+    <string name="txt_email">อีเมล์</string>
+    <string name="txt_age">อายุ</string>
+    <string name="txt_date_of_birth">วันเกิด</string>
+    <string name="txt_select_date">เลือกวันที่</string>
+    <string name="txt_phone">เบอร์โทรศัพท์</string>
+    <string name="txt_phone_number">เบอร์โทรศัพท์</string>
+    <string name="txt_password">รหัสผ่าน</string>
+    <string name="txt_numberlic">รหัสผ่าน 8-15 ตัวเลข</string>
+    <string name="txt_confirm_pass">Confirm Password</string>
+
+    <string name="txtToday">วันนี้</string>
+    <string name="txtThisMonth">เดือนนี้</string>
+    <string name="txtThisWeek">สัปดาห์นี้</string>
+    <string name="txtThisYear">ปีนี้</string>
+    <string name="txtChooseDate">เลือกวันที่เอง</string>
+
+    <string name="txtColorGray">ไม่รับงาน</string>
+    <string name="txtColorBlue">วันปัจจุบัน</string>
+    <string name="txtColorGreen">งานที่เดินทางวันนี้</string>
+    <string name="txtColorRed">งานที่เลยวันเดินทาง</string>
+    <string name="txtColorYellow">งานที่ยังไม่ถึงวันเดินทาง</string>
+    <string name="txtColorSuccess">เดินทางเรียบร้อย</string>
+
+    <string name="txtCallBooking">จองล่วงหน้า</string>
+    <string name="txtCallNow">เรียกใช้งานตอนนี้</string>
+    <string name="txtAlready">ถึงแล้ว</string>
+
+    <string name="txtOr">หรือ</string>
+    <string name="txtRemember">จดจำผู้ใช้</string>
+    <string name="txtRegister">ลงทะเบียน</string>
+    <string name="txtCarDetail">รายละเอียดรถ</string>
+    <string name="txtPicture">รูปภาพ</string>
+    <string name="permission_rationale">"Storage permission is needed for fetching images from Gallery."</string>
+    <string name="txt_cancel">ยกเลิก</string>
+    <string name="txt_delete">ลบ</string>
+    <string name="txt_schedules">ตารางงาน</string>
+    <string name="txt_language">ภาษา</string>
+
+    <string-array name="periot_price">
+        <item>1000-1500</item>
+        <item>1501-2000</item>
+        <item>2001-2500</item>
+        <item>2501-3000</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>ผู้หญิง</item>
+        <item>ผู้ชาย</item>
+    </string-array>
+
+    <string-array name="car_group">
+        <item>กรุณาเลือกประเภทรถ</item>
+        <item>รถเทรลเลอร์</item>
+        <item>รถบรรทุกติดเครน(รถเฮี๊ยบ)</item>
+        <item>รถบรรทุกติดคอกสูง</item>
+        <item>รถบรรทุกดั้มพ์</item>
+    </string-array>
+
+    <string-array name="car_tow">
+        <item>กรุณาเลือกจำนวน</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="geo">
+        <item>กรุณาเลือกภาคที่รับงาน</item>
+        <item>ภาคเหนือ</item>
+        <item>ภาคกลาง</item>
+        <item>ภาคตะวันออกเฉียงเหนือ</item>
+        <item>ภาคตะวันตก</item>
+        <item>ภาคตะวันออก</item>
+        <item>ภาคใต้</item>
+        <item>ทุกภาค</item>
+    </string-array>
+    <string-array name="province">
+        <item>กรุณาเลือกจังหวัด</item>
+    </string-array>
+</resources>

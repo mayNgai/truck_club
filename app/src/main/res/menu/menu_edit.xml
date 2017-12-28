@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:orderInCategory="102"
+        app:showAsAction="always">
+        <item
+            android:id="@+id/action_edit"
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:title="Edit"/>
+        <item
+            android:id="@+id/action_save"
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:visible="false"
+            android:title="SAVE"/>
+        <item
+            android:id="@+id/action_warning"
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:visible="false"
+            android:icon="@drawable/dialog_warning"
+            android:title=""/>
+    </group>
+
+</menu>

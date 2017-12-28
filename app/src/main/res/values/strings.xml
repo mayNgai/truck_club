@@ -1,0 +1,419 @@
+<resources>
+    <string name="app_name">Truck Club</string>
+    <string name="title_all_task">All Task</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_me">Me</string>
+    <!--<string name="facebook_app_id">881909025297474</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb881909025297474</string>-->
+    <string name="facebook_app_id">174618203087600</string>
+    <string name="fb_login_protocol_scheme">fb174618203087600</string>
+
+    <string name="logo_name">Truck Club</string>
+    <integer name="zoom">11</integer>
+    <string name="title_activity_test_map_fragment">Map</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="stepLogin">Login</string>
+    <string name="stepPutDestination">Choose Destination</string>
+    <string name="stepPickDriver">Choose driver</string>
+    <string name="stepTraveling">Traveling</string>
+    <string name="stepFinish">Give rating</string>
+    <string name="login_complete">Login Complete</string>
+
+    <string name="about">About</string>
+    <string name="wwwdtc">www.dtc.co.th</string>
+    <string name="urlwwwdtc">http://www.dtc.co.th</string>
+    <string name="playStore">https://play.google.com/store/apps/details?id=com.dtc.sevice.truckclub</string>
+    <string name="version">Version</string>
+    <string name="checkUpdate">UpdateVersion</string>
+
+    <string name="wantToChoose">You want to choose</string>
+    <string name="forSent"> or not?</string>
+
+    <string name="stepDetail">Detail</string>
+    <string name="hintPassword">Password</string>
+    <string name="AVRPriceThisGroup">The average daily price of the vehicle group.</string>
+    <string name="name">Name</string>
+    <string name="next_btn">Next</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="nor">o\'clock</string>
+    <string name="other">other</string>
+    <string name="pickDriver">call service</string>
+    <string name="point_pick_up_full_address">pick up position</string>
+    <string name="point_sent_full_address">destination position</string>
+    <string name="priceYourOffer">price offered</string>
+    <string name="price_periot_user">price preferred</string>
+    <string name="profile">profile</string>
+    <string name="history">History</string>
+    <string name="rating">Rating</string>
+    <string name="ratingCleaning">cleanness</string>
+    <string name="ratingGentle">gentleness</string>
+    <string name="ratingNotRate">on time</string>
+    <string name="ratingSpeeding">fastness</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="skip">skip</string>
+    <string name="stillHaveNoDriver">still have no driver</string>
+    <string name="textBlack">#000000</string>
+    <string name="textIndigo">#3DECFF</string>
+    <string name="travel">travel</string>
+    <string name="typTravel">travel type</string>
+    <string name="userDontCome">Passengers do not come under the agreement</string>
+    <string name="userDontPay">Passengers do not pay the agreed price.</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="year">Year old</string>
+    <string name="year_old">Age</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="inputPrice">Insert price</string>
+    <string name="goStart">Departure : </string>
+    <string name="from">from</string>
+    <string name="go">to</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="edit">Edit</string>
+    <string name="driverTooLate">The driver has been very slow</string>
+    <string name="AVRPriceThisVan">The average daily price of the car.</string>
+    <string name="AgeHashMap">profileAge</string>
+    <string name="Driver_Sex">Sex</string>
+    <string name="Driver_Save_All">Save</string>
+    <string name="Bath">Bath</string>
+    <string name="BathPerDay">Bath/Day</string>
+    <string name="Book_Go_Back">Charter</string>
+    <string name="Book_One_Turn">One way</string>
+    <string name="CarDetail">Van Detail</string>
+    <string name="Driver_BirthDate">date of birth</string>
+    <string name="Driver_ConfirmPassword">Confirm</string>
+    <string name="Driver_Email">Email</string>
+    <string name="Driver_Fire_Theque">Fire theque</string>
+    <string name="Driver_Group">Seating</string>
+    <string name="Driver_Karaoke">Karaoke</string>
+    <string name="Driver_Name">Name</string>
+    <string name="Driver_Nickname">Nickname</string>
+    <string name="Driver_Password">Password</string>
+    <string name="Driver_Pic_On_Top">For example, picture a van</string>
+    <string name="Driver_Pic_Pro">Choose profile picture</string>
+    <string name="Driver_Pic_full">van picture</string>
+    <string name="Driver_Pic_inside">inside van picture</string>
+    <string name="Driver_Pic_profile">profile picture</string>
+    <string name="Driver_Place_For_WheelChair">place for wheel chair</string>
+    <string name="Driver_Surname">Surname</string>
+    <string name="Driver_Tel">Tel.</string>
+    <string name="Driver_VanWage_Per_Day">Price/Day</string>
+    <string name="Driver_Vehicle_Caption">Vehicle Detail</string>
+    <string name="Driver_Vehicle_ฺBrand">Vehicle Brand</string>
+    <string name="Driver_Vehicle_ฺModel">Model Brand</string>
+    <string name="Driver_Vehicle_ฺID">License plate</string>
+    <string name="Driver_province">Province</string>
+    <string name="Driver_Vehicle_ฺfuel">Fuel type</string>
+    <string name="Driver_Vehicle_ฺtools">Other tools</string>
+    <string name="Driver_caption">Information driver</string>
+    <string name="Driver_leather_sofa">Sofa</string>
+    <string name="Driver_pic_Full_Car">van picture</string>
+    <string name="Driver_pic_Inside_Car">inside van picture</string>
+    <string name="LocationFail">Not enabled GPS</string>
+    <string name="MrOrMrs">Mr./Mrs.</string>
+    <string name="NameHashMap">Name</string>
+    <string name="OpenGPS">Enabled GPS</string>
+    <string name="Price">Price</string>
+    <string name="SpecialDetail">Special Detail</string>
+    <string name="Suggestion">Suggestion</string>
+    <string name="TelHashMap">Tel.</string>
+
+    <string name="UserGiveRating">Give rating driver</string>
+    <string name="User_Choose_Position">Choose_postion on map</string>
+    <string name="User_Date_travel">Date of start</string>
+    <string name="User_Destination">Destination</string>
+    <string name="User_Start">Start</string>
+    <string name="User_date_start">Date of start</string>
+    <string name="User_how_much_date">Number of days</string>
+    <string name="User_periot_of_price">Price range</string>
+    <string name="User_point_pick_up">Pick up position</string>
+    <string name="User_time_to_start">Start time</string>
+    <string name="User_type_of_fuel">Fuel type</string>
+    <string name="User_use_address_start">Use start position</string>
+    <string name="User_use_now_location">Use current position</string>
+    <string name="User_van_option">Van option</string>
+    <string name="VanID">Van licence</string>
+    <string name="address_found">Address found</string>
+    <string name="back">back</string>
+    <string name="back_home">Get back</string>
+    <string name="bathPerDay">Bath/Day</string>
+    <string name="blank">ิฺBlank</string>
+    <string name="book_accept">Book accepted</string>
+    <string name="cancel">Cancel</string>
+    <string name="changePassword">Change password</string>
+    <string name="confirm">Confirm</string>
+    <string name="day">day</string>
+    <string name="destination">Destination</string>
+    <string name="detail">Detail</string>
+    <string name="driverDontSentU">The driver failed to send as agreed</string>
+    <string name="driverNotCome">The driver not come</string>
+    <string name="hintLogin">Username</string>
+    <string name="User">User</string>
+    <string name="txtUserHead">User : </string>
+    <string name="txtDriver">Driver</string>
+    <string name="txtUser">User</string>
+    <string name="txtWarning">Warning</string>
+    <string name="txt_internet_is_not">Internet is not stable.</string>
+    <string name="txtWait">Wait</string>
+    <string name="txt_loading">loading...</string>
+    <string name="txt_language">Language</string>
+
+
+    <string-array name="VanFuel">
+        <item>Gasohol</item>
+        <item>Bensin 95</item>
+        <item>Bensin 91</item>
+        <item>Diesel</item>
+        <item>Diesel hi power</item>
+        <item>NGV</item>
+        <item>LPG</item>
+    </string-array>
+
+    <string-array name="VanGroup">
+        <item>VIP 14 seat</item>
+        <item>VIP 10 seat</item>
+        <item>VIP 8 seat</item>
+    </string-array>
+
+    <string-array name="driver_job">
+        <item>new job offer</item>
+        <item>Job offered</item>
+        <item>Job canceled</item>
+        <item>Job Accepted</item>
+    </string-array>
+
+    <string-array name="driver_option">
+        <item>Karaoke</item>
+        <item>For wheelchairs</item>
+        <item>Leather seat</item>
+        <item>Disco Lights</item>
+    </string-array>
+
+    <string-array name="SexArray">
+        <item>Men</item>
+        <item>Women</item>
+    </string-array>
+    <string name="choosePic">Choose Pic.</string>
+    <string name="AverageRating">Rating Average</string>
+    <string name="AverageRatingDriver">Average Driver Rating</string>
+    <string name="Driver_Offline">Offline</string>
+    <string name="Driver_Online">Online</string>
+    <string name="Offering">Offering</string>
+    <string name="confirmYouOver">Confirm Driver Pick Up You</string>
+    <string name="goBack">charter</string>
+    <string name="goBackFromTable">one way</string>
+    <string name="nodata">Location not found</string>
+    <string name="ok">accept</string>
+    <string name="oneTurn">One way</string>
+    <string name="oneTurnFromTable">One way</string>
+    <string name="Driver_Other">Other</string>
+    <string name="cantTravel">can\'t travel</string>
+    <string name="cantTravelThisTime">not it\'s time</string>
+    <string name="cantTravelTimeOut">Time Out Travel</string>
+    <string name="check_your_traveling">Please check your plan</string>
+    <string name="have_book_today">you have booking to day</string>
+    <string name="have_book_tomorrow">you have booking tomorow</string>
+    <string name="tellUserUWillPickUp">Travel</string>
+    <string name="tellUserUWillPickUp2">tell your passenger you are picking up</string>
+    <string name="yourDeviceTimeWrong">your device time is not match with server time</string>
+    <string name="chooseDate">ChooseDate</string>
+    <string name="putDateCount">Enter the number of days required before</string>
+    <string name="notputDateCount">Enter invalid number of days.</string>
+    <string name="yourDateRepletly">Your travel dates match your schedule to others.</string>
+    <string name="NetworkFail">NetworkFail</string>
+    <string name="txt_book">Book</string>
+
+    <string name="setting">Setting</string>
+    <string name="waitDriverAccept">Wait for Driver accept.</string>
+    <string name="Minute">minute</string>
+    <string name="enterYourTimeUWait">Please Enter The Time(Minute)</string>
+    <string name="waitAccept">"Wait accept</string>
+
+    <string name="txtOk">Ok</string>
+
+    <string name="timeOut">Time Out.</string>
+    <string name="notHaveDriver">No Driver Found near you.</string>
+
+    <string name="titleNetIsNotStable">Internet Problem</string>
+    <string name="txtNetIsNotStable">Please Check your internet connection.</string>
+
+    <string name="titleGPSIsNotStable">GPS Problem</string>
+    <string name="txtGPSIsNotStable">Please Check your GPS.</string>
+
+    <string name="titleNetAndGPSIsNotStable">Internet and GPS Problem</string>
+    <string name="txtNetAndGPSIsNotStable">Please Check your internet and GPS connection.</string>
+
+    <string name="titlePleaseChoosePic">not yet photo from your gallery</string>
+    <string name="txtPleaseChoosePic">Please choose photo from your gallery.</string>
+
+    <string name="titleDataisNotcomplete">Data is not complete</string>
+    <string name="txtDataisNotcomplete">Please enter complete information.</string>
+
+    <string name="txtEnterName">Plese Enter Name.</string>
+    <string name="txtEnterAge">Plese Enter Age.</string>
+    <string name="txtEnterTel">Plese Enter Phone Number.</string>
+
+
+    <string name="titleWrongPassword">Wrong Password</string>
+    <string name="txtWrongPassword">Please Check Password and Confirm Password.</string>
+
+    <string name="titleRegisterFailed">RegisterFailed</string>
+    <string name="txtRegisterFailed">Please Check your information.</string>
+
+    <string name="titleRegisterSuccesses">Register Successes</string>
+    <string name="txtRegisterSuccesses"> </string>
+
+    <string name="titleLoginFail">Information Fail</string>
+    <string name="txtLoginFail">Please Check your information.</string>
+
+    <string name="titleFinishjobFail">Finish job Fail!</string>
+    <string name="txtFinishjobFail">User not yet confirm your task.</string>
+
+    <string name="txtDataFail">No Data</string>
+
+    <string name="titleBookFailed">Book Fail!</string>
+    <string name="txtBookFailed">Please try again.</string>
+
+    <string name="titleyourDateNotBook">Can not Book Today</string>
+    <string name="txtyourDateNotBook">Because same as travel day.</string>
+    <string name="txtCannotbookthepreviousday">Can not book the previous day.</string>
+
+    <string name="txtNow">Use Now</string>
+    <string name="txtBook">Advance booking</string>
+
+    <string name="now">Now</string>
+    <string name="book">Book</string>
+    <string name="reportUser">Report User</string>
+    <string name="reportDriver">Report Driver</string>
+
+    <string name="cantReport">Report Not yet.</string>
+    <string name="txtPleaseChooseDateStart">Please Choose Start Date.</string>
+    <string name="txtPleaseChooseDateEnd">Please Choose End Date.</string>
+    <string name="txtPleaseChooseTimeStart">Please Choose Start Time.</string>
+    <string name="txtPleaseChooseTimeEnd">Please Choose End Time.</string>
+
+    <string name="titleLogOutApp">Please Logout.</string>
+    <string name="txtLogOutApp">Because there is another login.</string>
+
+
+    //////////validate register Driver ///////////
+    <string name="error_invalid_name">This name is invalid</string>
+    <string name="error_invalid_useer_name">This Username is invalid</string>
+    <string name="error_invalid_surname">This surname is invalid</string>
+    <string name="error_invalid_nick_name">This nick name is invalid</string>
+    <string name="error_invalid_first_name">This Frist Name is invalid</string>
+    <string name="error_invalid_last_name">This Last Name is invalid</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_tel">This phone number is invalid</string>
+    <string name="error_invalid_birth_date">please select birth day.</string>
+    <string name="error_invalid_image">please select Image.</string>
+    <string name="error_invalid_pass">This password is invalid</string>
+    <string name="title_not_complete">Your data is not complete</string>
+    <string name="error_invalid_age">This age is invalid</string>
+
+    <string name="error_invalid_car_brands">Please enter Car brand</string>
+    <string name="error_invalid_car_model">Please enter Car model</string>
+    <string name="error_invalid_license_plate">Please enter license plate</string>
+    <string name="error_invalid_license_province">Please enter license province</string>
+    <string name="error_invalid_car_wheels">Please input car wheels.</string>
+    <string name="error_invalid_car_tons">Please input car tons.</string>
+    <string name="error_invalid_prise_per_day">Please enter prise</string>
+    <string name="error_invalid_type_car">Please select type car</string>
+    <string name="error_invalid_total_tow">Please select total tow</string>
+
+    <string name="error_invalid_pic_profile">Please select image profile</string>
+    <string name="error_invalid_pic_car">Please select image cars more then 3.</string>
+    //////////validate register User ///////////
+    <string name="error_user_invalid_name">This name is invalid</string>
+    <string name="error_user_invalid_tel">This phone number is invalid</string>
+    <string name="error_user_invalid_age">This age is invalid</string>
+    <string name="title_user_not_complete">Your data is not complete</string>
+
+    <string name="txt_name">Name</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_first_name">First Name</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_age">Age</string>
+    <string name="txt_date_of_birth">date of birth</string>
+    <string name="txt_select_date">Select date</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_phone_number">Phone number</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_numberlic">Password 8-15 numberlic</string>
+    <string name="txt_confirm_pass">Confirm Password</string>
+
+    <string name="txtToday">Today</string>
+    <string name="txtThisMonth">This Month</string>
+    <string name="txtThisWeek">This Week</string>
+    <string name="txtThisYear">This Year</string>
+    <string name="txtChooseDate">Choose a date yourself</string>
+
+    <string name="txtColorGray">Busy.</string>
+    <string name="txtColorBlue">Current Day.</string>
+    <string name="txtColorGreen">Task for travel today.</string>
+    <string name="txtColorRed">Passed for travel.</string>
+    <string name="txtColorYellow">Not yet traveled.</string>
+    <string name="txtColorSuccess">Travel completed.</string>
+
+    <string name="txtCallBooking">Booking</string>
+    <string name="txtCallNow">Now</string>
+    <string name="txtAlready">Already</string>
+
+    <string name="txtOr">Or</string>
+    <string name="txtRemember">Remember</string>
+    <string name="txtRegister">Register</string>
+    <string name="txtCarDetail">Car Detail</string>
+    <string name="txtPicture">Picture</string>
+    <string name="permission_rationale">"Storage permission is needed for fetching images from Gallery."</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_schedules">Schedules</string>
+
+
+
+    <string-array name="periot_price">
+        <item>1000-1500</item>
+        <item>1501-2000</item>
+        <item>2001-2500</item>
+        <item>2501-3000</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+
+    <string-array name="car_group">
+        <item>Plese select type car.</item>
+        <item>รถเทรลเลอร์</item>
+        <item>รถบรรทุกติดเครน(รถเฮี๊ยบ)</item>
+        <item>รถบรรทุกติดคอกสูง</item>
+        <item>รถบรรทุกดั้มพ์</item>
+    </string-array>
+
+    <string-array name="car_tow">
+        <item>Plese select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="geo">
+        <item>Plese select</item>
+        <item>ภาคเหนือ</item>
+        <item>ภาคกลาง</item>
+        <item>ภาคตะวันออกเฉียงเหนือ</item>
+        <item>ภาคตะวันตก</item>
+        <item>ภาคตะวันออก</item>
+        <item>ภาคใต้</item>
+        <item>ทุกภาค</item>
+    </string-array>
+    <string-array name="province">
+        <item>กรุณาเลือกจังหวัด</item>
+    </string-array>
+
+</resources>

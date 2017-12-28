@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1011125969326",
+    "firebase_url": "https://truckclub-181109.firebaseio.com",
+    "project_id": "truckclub-181109",
+    "storage_bucket": "truckclub-181109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011125969326:android:d958c5d8977f1f4e",
+        "android_client_info": {
+          "package_name": "com.dtc.sevice.truckclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011125969326-np9e2chplnn3ft16dfup75ks694abqsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiK0kKBVNXxROOs6AE3LoApOkuDnpeH6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

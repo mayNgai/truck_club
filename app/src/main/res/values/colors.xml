@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA500</color>
+    <color name="colorPrimaryDark">#FF8C00</color>
+    <color name="colorAccent">#FFA500</color>
+    <color name="actionBar">#FFA500</color>
+
+    <color name="stepDark">#afffd7</color>
+    <color name="stepLight">#fff</color>
+    <color name="actionBar_Light">#FFC7F5F9</color>
+    <color name="titleBar">#0963FF</color>
+    <color name="black_1">#000000</color>
+    <color name="color_background">#FFA500</color>
+    <color name="color_red">#FF4C30</color>
+    <color name="color_green">#41911f</color>
+    <color name="color_yellow">#FFFF33</color>
+    <color name="actionBack">#96e8ef</color>
+
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="DimGray">#696969</color>
+    <color name="Gray">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="DarkGray">#A9A9A9</color>
+
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="NavyBlue">#000080</color>
+    <color name="RoyalBlue">#4169E1</color>
+
+    <color name="red">#b90e1f</color>
+    <color name="Gray11">#363636</color>
+
+</resources>

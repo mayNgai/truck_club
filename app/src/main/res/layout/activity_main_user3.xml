@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBarCircle"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:background="@drawable/drawable_circle_white"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/drawable_circle_orange"
+        android:rotation="-90"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="minute"
+        android:inputType="number"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:minEms="5"
+        android:text="1"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignTop="@+id/progressBarCircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:01:00"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewStartStop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/progressBarCircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_cancel" />
+
+
+</RelativeLayout>

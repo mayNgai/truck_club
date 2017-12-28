@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_profile"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="โปรไฟล์"
+
+            />
+        <item
+            android:id="@+id/action_books"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="จอง"
+            />
+
+        <item
+            android:id="@+id/action_wait_accept"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="ตอบกลับ"
+            />
+
+        <item
+            android:id="@+id/action_favorite"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="รายการโปรด (Coming soon)"
+            />
+        <item
+            android:id="@+id/action_report"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="ประเมิน"
+            />
+        <item
+            android:id="@+id/action_history"
+            android:icon="@drawable/ic_query_builder_black_24dp"
+            android:title="ประวัติการเดินทาง"
+            />
+        <item
+            android:id="@+id/action_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="ตั้งค่า"
+            />
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about"
+            />
+        <item
+            android:id="@+id/action_logout"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="ออกจากระบบ"
+            />
+
+    </group>
+</menu>
