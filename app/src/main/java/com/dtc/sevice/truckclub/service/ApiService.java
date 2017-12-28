@@ -27,7 +27,7 @@ import rx.Observable;
  */
 
 public class ApiService {
-    public static final String FORUM_SERVER_URL = "http://127.0.0.1:3100/";//10.255.248.63
+    public static final String FORUM_SERVER_URL = "http://10.255.248.63:3100/";//10.255.248.63//127.0.0.1
     //public static final String FORUM_SERVER_URL = "http://wisasoft.com:8994/truck_club/";
     //public static final String FORUM_SERVER_URL = "http://10.255.248.63:80/truck_club/";
     public static final String url_facebook = "https://graph.facebook.com/";
@@ -62,6 +62,9 @@ public class ApiService {
         @POST("register_member")//create_member_and_car.php
         public Observable<TblMember> createMemberAndCar(@Body TblMember member);
 
+        @POST("create_member_and_car.php")//create_member_and_car.php
+        public Observable<TblMember> createMemberAndCarTest(@Body TblMember member);
+
         @FormUrlEncoded
         @POST("member_register.php")
         public Observable<TblMember> createMember(@Field("first_name") String first_name, @Field("last_name") String last_name, @Field("email") String email,
@@ -73,13 +76,13 @@ public class ApiService {
         @POST("get_login")//@POST("user_login")
         public Observable<TblMember> getLogin(@Body TblMember member);
 
-        @POST("get_car_detail.php")
+        @POST("get_car_detail")//get_car_detail.php
         public Observable<TblCarDetail> getCarDetail(@Body TblMember member);
 
         @POST("update_status_member.php")
         public Observable<TblMember> updateStatusMember(@Body TblMember member);
 
-        @POST("get_province.php")
+        @POST("get_province")//get_province.php
         public Observable<List<TblProvince>> getProvince();
 
         @POST("get_car_group")//@POST("loadCarGroup")

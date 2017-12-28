@@ -269,8 +269,8 @@ public class RegisterDriverFragmentThird extends Fragment implements View.OnClic
                 if(bitmapProfileDefault!=null){
                     String new_path = GlobalVar.saveImage(bitmapProfileDefault,pathDefault);
                     mView.member.setName_pic_path(GlobalVar.findPicName(new_path));
-                    final String result = download_image.SendImageNode(_activity, new_path);
-                    Log.i("Upload Image",result);
+//                    final String result = download_image.SendImageNode(_activity, new_path);
+//                    Log.i("Upload Image",result);
                 }
 
                 for(int i=0;i<imagePaths.size();i++){
@@ -278,8 +278,8 @@ public class RegisterDriverFragmentThird extends Fragment implements View.OnClic
                         imagePaths.remove(i);
                     }else {
                         imagePaths.get(i).setName(GlobalVar.findPicName(imagePaths.get(i).getPath()));
-                        final String result_img = download_image.SendImageNode(_activity, imagePaths.get(i).getPath());
-                        Log.i("Upload Image",result_img);
+//                        final String result_img = download_image.SendImageNode(_activity, imagePaths.get(i).getPath());
+//                        Log.i("Upload Image",result_img);
                     }
                 }
 

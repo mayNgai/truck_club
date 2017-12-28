@@ -519,8 +519,8 @@ public class DriverProfileActivity extends AppCompatActivity implements View.OnC
                         if(!defaultPicProfile){
                             String new_path = GlobalVar.saveImage(bitmapProfileDefault,pathDefault);
                             listMembers.get(0).setName_pic_path(GlobalVar.findPicName(new_path));
-                            final String result = download_image.SendImageNode(DriverProfileActivity.this, new_path);
-                            Log.i("Upload Image",result);
+//                            final String result = download_image.SendImageNode(DriverProfileActivity.this, new_path);
+//                            Log.i("Upload Image",result);
                         }
                         flagEdit = false;
                         save.setVisible(false);
